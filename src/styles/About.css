@@ -1,0 +1,20 @@
+
+.about-page {
+  color: #fff;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16%;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  
+}
+
+/* Smartphone */
+@media (max-width: 500px) {
+  .about-page {
+    font-size: 17px;
+  }
+}

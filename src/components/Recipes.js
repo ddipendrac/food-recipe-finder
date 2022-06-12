@@ -11,7 +11,7 @@ function Recipes() {
 
   useEffect(() => {
     getRecipes()
-  }, [query])
+  }, [query]) 
 
   const getRecipes = async () => {
     const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
@@ -33,14 +33,12 @@ function Recipes() {
 
   return (
     <div className="container mx-auto px-4 py-4" >
-      <form onSubmit={onFormSubmit}>
-        <div className="flex flex-col">
-          <label className='text-4xl font-bold text-primary '>Find Recipe</label>
-          <input className="shadow appearance-none border rounded w-full py-3 px-3 block w-full text-base text-slate-500 my-3" type="text" name="search" onChange={onInputChange} value={searchText}/>
-        </div>
-        <button className="bg-primary text-white px-5 py-2 rounded text-xl font-semibold" type="submit">Search</button>
+      <form className="form-container" onSubmit={onFormSubmit}>
+          <input className="search-input" type="text" name="search" onChange={onInputChange} value={searchText}/>
+        
+          <button className="search-button" type="submit">SEARCH</button>
       </form>
-      <div className='mt-8 flex flex-wrap container justify-evenly align-start'>
+      <div className='flex flex-wrap container justify-evenly align-start'>
         {recipes.map(recipe => (
           <Recipe 
             key={recipe.recipe.label}
