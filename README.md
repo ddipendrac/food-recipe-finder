@@ -1,3 +1,8 @@
+
+This is a Recipe Finder app. It is built using React. It uses api named as edamam.
+# ReactJS
+# API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
