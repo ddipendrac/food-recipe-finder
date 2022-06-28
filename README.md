@@ -1,8 +1,26 @@
 # https://recipee-finder.netlify.app/
 
-This is a Recipe Finder app. It is built using React. It uses api named as edamam.
-# ReactJS
-# API
+# About APP
+  * This is a Recipe Finder app.
+  * REACT : It is built using React. 
+  * API : It uses api named as edamam.
+  * CSS : For styling CSS is used.
+
+# Preview
+
+https://user-images.githubusercontent.com/76725537/176131404-d2ac466c-3ada-48e1-8795-87b2851b6879.mp4
+
+
+
+# Screenshots
+
+Desktop
+![Screenshot (76)](https://user-images.githubusercontent.com/76725537/176131012-6478394e-c96c-4ac8-a5c9-7d07a9283c28.png)
+
+Smartphone
+![Screenshot (77)](https://user-images.githubusercontent.com/76725537/176131092-a9339c7e-aded-40c3-8c3c-888074c3954c.png)
+
+
 
 # Getting Started with Create React App
 
